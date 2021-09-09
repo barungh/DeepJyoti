@@ -3,11 +3,13 @@ import { CommonModule } from '@angular/common';
 
 import { QAnswersRoutingModule } from './qanswers-routing.module';
 import { QanswersHomeComponent } from './qanswers-home/qanswers-home.component';
+import { ChapterSixComponent } from './chapter-six/chapter-six.component';
 
 
 @NgModule({
   declarations: [
-    QanswersHomeComponent
+    QanswersHomeComponent,
+    ChapterSixComponent
   ],
   imports: [
     CommonModule,

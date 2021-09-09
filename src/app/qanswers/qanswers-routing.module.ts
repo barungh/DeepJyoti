@@ -2,9 +2,12 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { QanswersHomeComponent} from "./qanswers-home/qanswers-home.component";
+import { ChapterSixComponent} from "./chapter-six/chapter-six.component";
 
 const routes: Routes = [
-  { path: 'qanswers', component: QanswersHomeComponent }
+  { path: '', component: QanswersHomeComponent },
+  { path: 'qanswers4', component: QanswersHomeComponent },
+  { path: 'qanswers6', component: ChapterSixComponent }
 ];
 
 @NgModule({
