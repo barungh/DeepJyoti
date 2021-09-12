@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 
 import { QAnswersModule } from "./qanswers/qanswers.module";
 import { NotFoundComponent } from './not-found/not-found.component';
+import { LandingPageModule } from "./landing-page/landing-page.module";
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
   ],
   imports: [
     BrowserModule,
+    LandingPageModule,
     QAnswersModule,
     AppRoutingModule 
   ],
