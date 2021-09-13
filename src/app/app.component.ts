@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'DeepJyoti';
+  
+  myClass:string = '';
+  
+  onButtonClick() {
+    if (this.myClass === '') {
+      this.myClass = 'is-active';
+    } else {
+      this.myClass = '';
+    }
+  }
 }

@@ -1,87 +1,132 @@
-      <!-- article starts here -->
-      <article class="message is-medium block">
-        <div class="message-header">
-          <p>A. Tick the right answer</p>
-        </div>
-        <div class="message-body">
-          <h3>
-            <strong>
-            1. Seventh largest country in term of area:
-            </strong>
-          </h3>
-          <p>(a) Pakistan</p>
-          <p>(b) India</p>
-          <b>Answer:</b> (b) India
-        </div>
-        <div class="message-body">
-          <h3>
-            <strong>
-            2. India lies in the continent of:
-            </strong>
-          </h3>
-          <p>(a) Australia</p>
-          <p>(b) Asia</p>
-          <b>Answer:</b> (b) Asia
-        </div>
-        <div class="message-body">
-          <h3>
-            <strong>
-            3. Highest peak in the world:
-            </strong>
-          </h3>
-          <p>(a) Mount Everest</p>
-          <p>(b) Kanchenjunga</p>
-          <b>Answer:</b> (a) Mount Everest
-        </div>
-        
-        <div class="message-header">
-          <p>B. Choose the right word from the box and fill in the blanks:</p>
-        </div>
-        <div class="message-body">
-          <div class="tags">
-            
-          <span class="tag is-link is-3"> Nepal </span>
-          <span class="tag is-success"> Cactus </span>
-          <span class="tag is-danger"> K2 </span>
-          <span class="tag is-warning"> populated </span>
-          </div>
-          <div class="block">
-            
-          </div>
-          <div class="block">
-           <h5>1. The great Indian desert is not thickly <u>populated</u> </h5>
-          </div>
-          <div class="block">
-            <h5>2. Mount Everest is in <u>Nepal</u></h5>
-          </div>
-          <div class="block">
-            <h5>3. <u>Cactus</u> grow in desert</h5>
-          </div>
-          <div class="block">
-            <h5>4. <u>K2</u> is the highest peak in India</h5>
-          </div>
-        </div>
-        <div class="message-header">
-          <p>C. Write 'T' for true 'F' false</p>
-        </div>
-        <div class="message-body">
-          <h3>1. The second most populated country is China. <span class="tag is-danger block">F</span></h3>
-          <h3>2. The lower part of Himalayas are covered with thick forest <span class="tag is-success block">T</span></h3>
-          <h3>3. Horse is called the ship of desert <span class="tag is-danger block">F</span></h3>
-          <h3>4. The Southern plateau is triangular in shape. <span class="tag is-success block">T</span></h3>
-          
-        </div>
-        
-        
-        <div class="message-header">
-          <p>D. Name the following: </p>
-        </div>
-        <div class="message-body">
-          <h3>1. Northern plains are also called <u><i>Gangetic Plains</i></u></h3>
-          <h3>2. The Indian desert is called <u><i>Thar Desert</i></u></h3>
-          <h3>3. The ship of desert is  <u><i>Camel</i></u></h3>
-          <h3>4. Two group of Islands  <u><i>Andaman and Nicobar</i></u></h3>
-        </div>
+<section class="section">
+  <div class="container">
+    <div class="columns is-vcentered">
+      <div class="column is-2">
 
-        <!-- article section ends here -->
-      </article>
+      </div>
+      <div class="column is-8">
+        <div class="card">
+          <div class="card-content">
+            <div class="content">
+              <button class="button is-info is-outlined ml-2">Social Studies</button>
+              <!-- <button class="button is-info is-outlined ml-2">S. St.</button> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-2">
+
+      </div>
+    </div>
+    <!-- columns end     -->
+    <div class="card">
+      <div class="card-content">
+        <!--     <div class="content"> -->
+        <div class="tabs is-boxed">
+          <ul>
+            <li routerLinkActive="is-active" [routerLinkActiveOptions]="{ exact: true }">
+              <a routerLink="qanswers4">Chapter 4</a>
+            </li>
+            <li routerLinkActive="is-active" [routerLinkActiveOptions]="{ exact: true }"> 
+              <a routerLink="qanswers6">Chapter 6</a>
+            </li>
+          </ul>
+        </div>
+        <div class="px-2">
+          <router-outlet></router-outlet>
+        </div>
+        <!--     </div> -->
+      </div>
+    </div>
+    <!-- card ends -->
+  </div> 
+  <!-- container ends -->
+</section>
+
+<!-- article starts here -->
+<!--       <article class="message is-medium block"> -->
+<!--         <div class="message-header"> -->
+<!--           <p>A. Tick the right answer</p> -->
+<!--         </div> -->
+<!--         <div class="message-body"> -->
+<!--           <h3> -->
+<!--             <strong> -->
+<!--             1. Seventh largest country in term of area: -->
+<!--             </strong> -->
+<!--           </h3> -->
+<!--           <p>(a) Pakistan</p> -->
+<!--           <p>(b) India</p> -->
+<!--           <b>Answer:</b> (b) India -->
+<!--         </div> -->
+<!--         <div class="message-body"> -->
+<!--           <h3> -->
+<!--             <strong> -->
+<!--             2. India lies in the continent of: -->
+<!--             </strong> -->
+<!--           </h3> -->
+<!--           <p>(a) Australia</p> -->
+<!--           <p>(b) Asia</p> -->
+<!--           <b>Answer:</b> (b) Asia -->
+<!--         </div> -->
+<!--         <div class="message-body"> -->
+<!--           <h3> -->
+<!--             <strong> -->
+<!--             3. Highest peak in the world: -->
+<!--             </strong> -->
+<!--           </h3> -->
+<!--           <p>(a) Mount Everest</p> -->
+<!--           <p>(b) Kanchenjunga</p> -->
+<!--           <b>Answer:</b> (a) Mount Everest -->
+<!--         </div> -->
+<!--          -->
+<!--         <div class="message-header"> -->
+<!--           <p>B. Choose the right word from the box and fill in the blanks:</p> -->
+<!--         </div> -->
+<!--         <div class="message-body"> -->
+<!--           <div class="tags"> -->
+<!--              -->
+<!--           <span class="tag is-link is-3"> Nepal </span> -->
+<!--           <span class="tag is-success"> Cactus </span> -->
+<!--           <span class="tag is-danger"> K2 </span> -->
+<!--           <span class="tag is-warning"> populated </span> -->
+<!--           </div> -->
+<!--           <div class="block"> -->
+<!--              -->
+<!--           </div> -->
+<!--           <div class="block"> -->
+<!--            <h5>1. The great Indian desert is not thickly <u>populated</u> </h5> -->
+<!--           </div> -->
+<!--           <div class="block"> -->
+<!--             <h5>2. Mount Everest is in <u>Nepal</u></h5> -->
+<!--           </div> -->
+<!--           <div class="block"> -->
+<!--             <h5>3. <u>Cactus</u> grow in desert</h5> -->
+<!--           </div> -->
+<!--           <div class="block"> -->
+<!--             <h5>4. <u>K2</u> is the highest peak in India</h5> -->
+<!--           </div> -->
+<!--         </div> -->
+<!--         <div class="message-header"> -->
+<!--           <p>C. Write 'T' for true 'F' false</p> -->
+<!--         </div> -->
+<!--         <div class="message-body"> -->
+<!--           <h3>1. The second most populated country is China. <span class="tag is-danger block">F</span></h3> -->
+<!--           <h3>2. The lower part of Himalayas are covered with thick forest <span class="tag is-success block">T</span></h3> -->
+<!--           <h3>3. Horse is called the ship of desert <span class="tag is-danger block">F</span></h3> -->
+<!--           <h3>4. The Southern plateau is triangular in shape. <span class="tag is-success block">T</span></h3> -->
+<!--            -->
+<!--         </div> -->
+<!--          -->
+<!--          -->
+<!--         <div class="message-header"> -->
+<!--           <p>D. Name the following: </p> -->
+<!--         </div> -->
+<!--         <div class="message-body"> -->
+<!--           <h3>1. Northern plains are also called <u><i>Gangetic Plains</i></u></h3> -->
+<!--           <h3>2. The Indian desert is called <u><i>Thar Desert</i></u></h3> -->
+<!--           <h3>3. The ship of desert is  <u><i>Camel</i></u></h3> -->
+<!--           <h3>4. Two group of Islands  <u><i>Andaman and Nicobar</i></u></h3> -->
+<!--         </div> -->
+<!--  -->
+<!-- article section ends here -->
+<!--       </article> -->
